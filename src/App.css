@@ -1,0 +1,25 @@
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: solid 2px;
+}
+
+.green-div {
+  background-color: greenyellow;
+  width: 60px;
+  height: 60px;
+}
+
+.transparent-div {
+  background-color: white;
+  width: 40px;
+  height: 40px;
+}
+
+.blue-div {
+  background-color: cyan;
+  width: 20px;
+  height: 20px;
+}
