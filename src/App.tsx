@@ -1,14 +1,14 @@
-import { useState } from "react";
 import "./App.css";
+import { SquareComponent, SunComponent, WindComponent } from "./components";
 
 function App() {
   return (
     <>
-      <div className="green-div square">
-        <div className="transparent-div square">
-          <div className="blue-div square"></div>
-        </div>
-      </div>
+      {/* Sun */}
+      <SunComponent />
+      <WindComponent />
+      <SquareComponent />
+      <div className="w-full shade"></div>
     </>
   );
 }

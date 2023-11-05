@@ -1,0 +1,12 @@
+.blurred {
+  @apply absolute right-[50px] top-[50px];
+  @apply flex items-center justify-center;
+  @apply w-[100px] h-[100px];
+  @apply bg-blue-50 rounded-full;
+}
+
+.sun {
+  @apply absolute right-[55px] top-[55px];
+  @apply w-[90px] h-[90px] bg-slate-50 rounded-full;
+  @apply border-2 border-blue-100/50;
+}

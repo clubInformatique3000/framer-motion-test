@@ -1,0 +1,12 @@
+.outer-square {
+  @apply flex justify-center items-center border-2 border-black bg-green-300 w-[60px] h-[60px];
+}
+
+.middle-square {
+  @apply flex justify-center items-center border-2 border-black bg-white w-[40px] h-[40px];
+}
+
+.inner-square {
+  @apply border-2 border-black bg-cyan-300 w-[20px] h-[20px];
+}
+

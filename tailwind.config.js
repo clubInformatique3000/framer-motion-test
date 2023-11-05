@@ -20,7 +20,12 @@ function addTailwindVariables({ addBase, theme }) {
     ([key, val]) => [`--${key}`, val]
   );
 
-  let newVars = Object.fromEntries([...colorEntries]);
+  const blurEntries = Object.entries(theme("blur")).map(([key, val]) => [
+    `--blur-${key}`,
+    `blur(${val})`,
+  ]);
+
+  let newVars = Object.fromEntries([...colorEntries, ...blurEntries]);
 
   addBase({
     ":root": newVars,
