@@ -52,16 +52,15 @@ export function SquareComponent({}: SquareComponentProps) {
   };
 
   return (
-    <motion.div
-      initial={false}
-      variants={variants}
-      animate={currentVariant}
-      onAnimationComplete={handleAnimationComplete}
-      className={style["outer-square"]}
-    >
-      <div className={style["middle-square"]}>
-        <div className={style["inner-square"]} />
-      </div>
-    </motion.div>
+ 
+      <motion.div 
+        layout 
+        initial={false}
+        variants={variants}
+        animate={currentVariant}
+        onAnimationComplete={handleAnimationComplete} 
+        className={style["middle-square"]}>
+          <motion.div layout className={style["inner-square"]} />
+      </motion.div>
   );
 }
