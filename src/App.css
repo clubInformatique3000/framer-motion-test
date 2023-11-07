@@ -1,5 +1,0 @@
-.shade {
-  @apply h-1;
-  @apply bg-gradient-to-r from-transparent from-10% via-slate-800 via-50% to-transparent to-90%;
-}
- 

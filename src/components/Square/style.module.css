@@ -2,18 +2,18 @@
 
   @apply flex justify-center items-center border-2 border-slate-800 bg-slate-50 w-[52px] h-[52px];
   @apply border-[10px] border-white bg-transparent relative;
-
-  &:after{
-    content: '';
-    @apply absolute top-0 left-0 w-full h-full border-2 border-slate-800;
-  }
-
-  &:before{
-    content: '';
-    @apply absolute w-[56px] h-[56px] border-2 border-slate-800 -top-[12px] -left-[12px];
-  }
+  
 }
 
+.middle-square:after {
+  content: '';
+  @apply absolute top-0 left-0 w-full h-full border-2 border-slate-800;
+}
+
+middle-square:before{
+  content: '';
+  @apply absolute w-[56px] h-[56px] border-2 border-slate-800 -top-[12px] -left-[12px];
+}
 .inner-square {
   @apply border-2 border-red-400 bg-red-500 w-[20px] h-[20px];
 }

@@ -6,7 +6,7 @@ export function JumpSquare() {
       <SunComponent />
       <WindComponent />
       <SquareComponent />
-      <div className="w-full shade"></div>
+      <div className={style.shade} />
     </section>
   );
 }
