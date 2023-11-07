@@ -12,6 +12,4 @@ body {
 
 #root {
   @apply w-full h-full;
-  @apply flex flex-col items-center justify-center;
-  @apply bg-gradient-to-b from-slate-800 to-slate-400;
 }

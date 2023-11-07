@@ -1,15 +1,15 @@
 import "./App.css";
-import { SquareComponent, SunComponent, WindComponent } from "./components";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Home, JumpSquare } from "./pages";
 
 function App() {
   return (
-    <>
-      {/* Sun */}
-      <SunComponent />
-      <WindComponent />
-      <SquareComponent />
-      <div className="w-full shade"></div>
-    </>
+    <Router>
+      <Routes>
+        <Route path="/jump-square" element={<JumpSquare />} />
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   );
 }
 

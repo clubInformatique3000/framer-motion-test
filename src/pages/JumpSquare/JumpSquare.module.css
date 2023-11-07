@@ -1,0 +1,4 @@
+.wrapper {
+  @apply flex flex-col items-center justify-center;
+  @apply h-full w-full bg-gradient-to-b from-slate-800 to-slate-400;
+}

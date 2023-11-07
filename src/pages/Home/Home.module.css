@@ -1,0 +1,15 @@
+.wrapper {
+  @apply h-full flex flex-col items-center justify-center;
+}
+
+.wrapper h1 {
+  @apply font-bold text-4xl capitalize mb-4;
+}
+
+.wrapper ul {
+  @apply flex flex-col gap-2;
+}
+
+.wrapper ul li {
+  @apply cursor-pointer hover:underline text-blue-500;
+}
